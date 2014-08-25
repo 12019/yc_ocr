@@ -1,0 +1,83 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	makefile	/^CC = g++$/;"	m
+CGraph	Graph.cpp	/^CGraph::CGraph() {$/;"	f	class:CGraph
+CGraph	Graph.h	/^class CGraph {$/;"	c
+COCREngine	OCREngine.cpp	/^COCREngine::COCREngine() {$/;"	f	class:COCREngine
+COCREngine	OCREngine.h	/^class COCREngine {$/;"	c
+CTextDetector	TextDetector.cpp	/^CTextDetector::CTextDetector() : m_height(1024.0) {$/;"	f	class:CTextDetector
+CTextDetector	TextDetector.cpp	/^CTextDetector::CTextDetector(double height) : m_height(height) {$/;"	f	class:CTextDetector
+CTextDetector	TextDetector.h	/^class CTextDetector {$/;"	c
+CTextExtractor	TextExtractor.cpp	/^CTextExtractor::CTextExtractor() {$/;"	f	class:CTextExtractor
+CTextExtractor	TextExtractor.h	/^class CTextExtractor {$/;"	c
+Edge	Graph.h	/^		Edge() {}$/;"	f	struct:CGraph::Edge
+Edge	Graph.h	/^		Edge(int _ed, int _nxt) : ed(_ed), nxt(_nxt) {}$/;"	f	struct:CGraph::Edge
+Edge	Graph.h	/^	struct Edge {$/;"	s	class:CGraph
+GRAY_THRESH	define.h	23;"	d
+INF	define.h	16;"	d
+LIM_AREA	define.h	29;"	d
+LIM_CONF	define.h	31;"	d
+LIM_H2W	define.h	25;"	d
+LIM_REG	define.h	28;"	d
+LIM_W2H	define.h	26;"	d
+LIM_WID	define.h	27;"	d
+MAX_BUFF	define.h	18;"	d
+Tar	makefile	/^Tar = textDetect$/;"	m
+TextPatch	define.h	/^typedef pair<string, int> TextPatch;$/;"	t
+X	define.h	20;"	d
+Y	define.h	21;"	d
+_DEFINE_H_	define.h	2;"	d
+_GRAPH_H_	Graph.h	2;"	d
+_OCRENGINE_H_	OCREngine.h	2;"	d
+_TEXTDETECTOR_H_	TextDetector.h	2;"	d
+_TEXTEXTRACTOR_H_	TextExtractor.h	2;"	d
+addEdge	Graph.cpp	/^void CGraph::addEdge(int a, int b) {$/;"	f	class:CGraph
+checkArea	TextDetector.cpp	/^bool CTextDetector::checkArea(const Rect &rect) const {$/;"	f	class:CTextDetector
+chiApi	OCREngine.h	/^	tesseract::TessBaseAPI *chiApi;$/;"	m	class:COCREngine
+cnt	Graph.h	/^	int nV, nE, cnt;$/;"	m	class:CGraph
+colorImg	TextDetector.h	/^	Mat colorImg, grayImg;$/;"	m	class:CTextDetector
+connect	Graph.cpp	/^int CGraph::connect() {$/;"	f	class:CGraph
+det	TextExtractor.h	/^	CTextDetector *det;$/;"	m	class:CTextExtractor
+dfs	Graph.cpp	/^void CGraph::dfs(int x, int id) {$/;"	f	class:CGraph
+ed	Graph.h	/^		int ed, nxt;$/;"	m	struct:CGraph::Edge
+edge	Graph.h	/^	vector<Edge> edge;$/;"	m	class:CGraph
+engApi	OCREngine.h	/^	tesseract::TessBaseAPI *engApi;$/;"	m	class:COCREngine
+getFileName	TextExtractor.cpp	/^string CTextExtractor::getFileName(const string &str) const {$/;"	f	class:CTextExtractor
+getIndex	Graph.h	/^	int getIndex(int x) const {$/;"	f	class:CGraph
+getText	OCREngine.cpp	/^int COCREngine::getText(const string &srcImg, vector<string> &ret) {$/;"	f	class:COCREngine
+getTextLine	OCREngine.cpp	/^int COCREngine::getTextLine(const string &srcImg, string &ret) {$/;"	f	class:COCREngine
+graph	TextDetector.h	/^	CGraph graph;$/;"	m	class:CTextDetector
+grayImg	TextDetector.h	/^	Mat colorImg, grayImg;$/;"	m	class:CTextDetector
+head	Graph.h	/^	vector<int>  head;$/;"	m	class:CGraph
+idx	Graph.h	/^	vector<int>  idx;$/;"	m	class:CGraph
+imageToJson	TextExtractor.cpp	/^int CTextExtractor::imageToJson(const string &imgSrc, string &ret) {$/;"	f	class:CTextExtractor
+imageToString	TextExtractor.cpp	/^int CTextExtractor::imageToString(const string &imgSrc, vector<TextPatch> &ret) {$/;"	f	class:CTextExtractor
+init	Graph.cpp	/^void CGraph::init(int n) {$/;"	f	class:CGraph
+init	OCREngine.cpp	/^bool COCREngine::init() {$/;"	f	class:COCREngine
+isConnected	TextDetector.cpp	/^bool CTextDetector::isConnected(const Rect &a, const Rect &b) const {$/;"	f	class:CTextDetector
+loadImg	TextDetector.cpp	/^bool CTextDetector::loadImg(const string &imgStr) {$/;"	f	class:CTextDetector
+m_height	TextDetector.h	/^	double m_height;$/;"	m	class:CTextDetector
+main	main.cpp	/^int main(int argc, char **argv) {$/;"	f
+mergeText	OCREngine.cpp	/^void COCREngine::mergeText(const string &chiTxt, const string &engTxt, string &ret) {$/;"	f	class:COCREngine
+ms	TextDetector.h	/^	MSER ms;$/;"	m	class:CTextDetector
+nE	Graph.h	/^	int nV, nE, cnt;$/;"	m	class:CGraph
+nV	Graph.h	/^	int nV, nE, cnt;$/;"	m	class:CGraph
+nxt	Graph.h	/^		int ed, nxt;$/;"	m	struct:CGraph::Edge
+objs	makefile	/^objs = main.o Graph.o TextDetector.o OCREngine.o TextExtractor.o$/;"	m
+ocr	TextExtractor.h	/^	COCREngine *ocr;$/;"	m	class:CTextExtractor
+pars	makefile	/^pars = -lm -O2 -g -llept -ltesseract `pkg-config opencv --cflags --libs`$/;"	m
+regionRect	TextDetector.h	/^	vector<Rect> regionRect;$/;"	m	class:CTextDetector
+regions	TextDetector.h	/^	vector< vector<Point> > regions;$/;"	m	class:CTextDetector
+showResult	TextExtractor.cpp	/^void CTextExtractor::showResult(const Mat &img, const string &txt, int conf) const {$/;"	f	class:CTextExtractor
+textDetect	TextDetector.cpp	/^bool CTextDetector::textDetect(const string &imgStr, vector<Mat> &ret) {$/;"	f	class:CTextDetector
+textDetect	TextDetector.cpp	/^bool CTextDetector::textDetect(const string &imgStr, vector<Rect> &ret) {$/;"	f	class:CTextDetector
+textRegions	TextDetector.h	/^	vector< vector<int> > textRegions;$/;"	m	class:CTextDetector
+uniqArea	TextDetector.cpp	/^void CTextDetector::uniqArea(vector<Rect> &vec) const {$/;"	f	class:CTextDetector
+~CGraph	Graph.cpp	/^CGraph::~CGraph() {$/;"	f	class:CGraph
+~COCREngine	OCREngine.cpp	/^COCREngine::~COCREngine() {$/;"	f	class:COCREngine
+~CTextDetector	TextDetector.cpp	/^CTextDetector::~CTextDetector() {$/;"	f	class:CTextDetector
+~CTextExtractor	TextExtractor.cpp	/^CTextExtractor::~CTextExtractor() {$/;"	f	class:CTextExtractor
